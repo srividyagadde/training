@@ -1,0 +1,202 @@
+FULL STACK TRAINING DAY-1&2 02/01/2025 & 03/01/2025 & 04/01/2025
+
+opensource tools for deploying 
+1.firebase----->multitasker,it has itself having a real time database
+Advantages:
+deplyement,authentication(gmail,otp),
+2.netlify------------>drag and drop
+3.git and GitHub---------->cloud storage
+4.git-lab------->richer in UI
+xenkin,scoobernet,
+EC2-development purpose-->under AWS
+5.bit-bucket
+
+
+git
+->it is a version controller
+->used to keep track on a code.
+->easy and simple to learn 
+
+GitHub
+->used to store and manage the code
+->cloud storage
+
+
+how to use GitHub:
+install the git-bash--->nothing but command prompt
+command: git --version
+or
+command prompt
+or
+vs code
+
+___________________________________________________________________________________________________________________________
+
+03/01/2025
+
+->git is of 2 types they are
+
+1.local repo:
+ ---->2 parts
+       1.un-tracked(unstaged) files
+           >create
+           >update
+           >delete
+       2.tracked files
+           --->command to convert untracked to tracked is:
+           git add filename(only one file contains)
+             or
+           git add .(all files are added at a time)(all files are not tracked) for this one more command
+            or
+           git commit-m""
+
+2.cloud repo(git-hub):
+  -->command for establishing communication b/w localrepo and github
+     git remote add origin http-path
+  -->command to push the tracked files(default branch created in repository that is main)(-u ---> upstream)
+     git push -u origin master/main
+
+command:
+---> git init (stands for initialization)
+
+
+____________________________________________________________________________________________________________________________
+
+
+04/01/2025
+
+Electron js is used to develop desktop application
+react.js is used to develop web application
+
+WHAT IS JAVASCRIPT?
+It is used to convert static page into dynamic page
+
+VARIABLES in javascript:
+--->variables is a set of blocks used to store data
+--->Variables are dynamic in nature(no need of mentioning the datatype)
+
+VARIABLES HAVING SCOPE in js :
+1.global(declare the variables outside the function and access the inside the function)
+2.loacl-scope/script-scope
+3.block scope(having {})
+
+VARIBLES ARE DIVIDED INTO 3 TYPES:
+1.var (comes under global scope)
+2.let (comes under local scope)
+3.const (comes under local scope)
+
+
+
+DATATYPES:
+
+primitive data types
+1.number
+2.string
+3.boolean 
+4.undefined
+5.Null(type in js is object)
+6.Delete
+
+nonprimitive datatypes
+1.class
+2.object
+3.array
+4.function
+5.maps
+6.sets
+
+--->end of the everything in javascript is treated as a javascript
+
+
+___________________________________________________________________________________________________________________________________________
+
+06/01/2025(Monday)
+
+1.JavaScript:
+---->1.Develop dynamic websites
+
+1.Static websites --- remains same to every one
+ex: fb login
+2.Dynamic websites --- changes to every one(data)
+ex: you-tube ,Criczbuzz ,Google maps 
+
+
+Variables:
+
+-->1.satic typed and dynamic type:
+-->2.variable are used in every programming language
+-->3.variables are used to store the data(any kind of data)
+-->4.variables are case sensitive
+-->5.variables we can start with letters,_,$
+-->6.variables we can't start with numbers
+-->7.Reserved words are not allowed
+-->8.Allowed letters,_,$,numbers
+
+
+How  to declare variables:
+ >var
+ >let
+ >const
+
+1)var keyword 1995-2015
+2)let keyword 2015
+3)var used only old browsers
+
+1.Reassigning variables:
+
+ ex:    var fav_std="sam"
+        fav_std="kavya"
+        fav_std="sri"                        o/p:sri
+        document.write(fav_std);
+        console.log(fav_std);
+
+ ex:    var a=100;
+        a=20;
+        document.write(a+a);                o/p:40
+        console.log(a+a);
+
+-->reassigning variables is possible by var
+-->reassigning with let also accepted
+-->reassigning with const not accepted
+
+1.Redeclaring with var is accepted:
+
+example:
+        var a=1:
+        var a=5:
+        document.write(a+a);      
+        console.log(a+a);
+
+2.Redeclaring with let is not accepted:
+
+example:
+       let a=1:
+       let a=5:
+       document.write(a+a);         o/p:error
+       console.log(a+a);
+
+3.reassigning with const not accepted:
+
+
+Block Scope:
+
+Variables declared with var does not have blockscope
+
+example:
+    var a="sai";
+        {
+            var a="kumar";
+            console.log(a);
+        }
+        console.log(a);
+
+example:
+      
+      let a = "sai";
+      {
+        let a = "kumar";
+        console.log(a);
+        console.log(a);
+      }
+      console.log(a);
+      
