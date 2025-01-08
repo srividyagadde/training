@@ -199,4 +199,171 @@ example:
         console.log(a);
       }
       console.log(a);
-      
+07/01/2025
+
+Data Types:
+1)Dynamic type languages
+Two types:
+1.Primitive data types
+2.Non-primitive datatypes: Objects, Arrays
+
+---->TO CHECK THE DATATYPE - typeOf
+
+1.PRIMITIVE DATATYPES: predefined ; we can store single values
+  1.Numbers:integers,floats
+  2.String:Stream of characters enclosed in quotes
+   ---single,double,backtick quotes;
+  3.Boolean : true or false
+  4.Null :empty value or no value
+example:
+      let a = null;
+      document.write(a, "<br>");
+      document.write(typeOf(a));
+  5.Undefined :---declared variable with no value
+
+
+ 1.Numbers:
+ex:1,-1,-4.4,5.5
+
+ 2.String:Stream of characters enclosed in quotes
+ --single,double,backtick quotes;
+Single and Double quotes works same
+---Back Ticks introduced in ES6 version
+---it provides
+
+ex:for backticks
+        let a=1
+        console.log("hi +a+a")                            o/p:hi+a         chrome:
+        document.write('hi+ a+a' ,"<br>")                  hi +2            hi+ a+a
+        document.write(`hi+ ${a+a}`)                       hi +a+a          hi+ 2
+        console.log(`hi +${a+a}`)                          hi +2
+
+string concatenation:
+
+example:
+  a=sai
+  b=kumar
+  age=30
+  let c=
+
+o/p: i am sai kumar, my age is 30 years old
+program:
+      let a = "sai";
+      let b = "kumar";
+      let age = 30;
+      console.log(`I am ${a + " " + b},my age is ${age} is years old`);
+
+Example: Reactjs student = sai kumar
+      let a = "Reactjs";
+      let b = "sai kumar";
+      console.log(`${a + "=" + b}`);
+
+1.python,java,c,c++
+1.Data structures
+
+#leetcode
+#hackerrank
+#codechef
+#written test in mncs
+#Technical interviews
+#Conditional statements:only once  #1-10
+#loops:
+#functions:
+#oops
+
+
+
+
+console(35>=35)  #
+(35>=30 or (30<=36)   #TorF -- T
+(35>=30 and (30<=36)  #TorF -- T
+(35>=30 and (36<=36)  #TorF -- T
+(35>=30 and (39<=36)  #TorF -- 
+
+(36>=39)
+
+
+or
+  
+T or F = T
+F or T = T
+F or F = F
+T or T = T
+T and T = T
+
+
+CONDITION:
+-->An expression that evaluates either (true or false).
+console.log(5>4);
+
+CONDITIONAL STATEMENT:
+-->To make the set of instructions execute only when the given condition is true.
+
+Block of code(conditional block):set of instructions.
+-->When this block of code will execute it will execute when the specific condition is true.
+
+INDENTATION:{ inside  the braces that is conditional block
+                        }
+
+if :   #only one possible conditions
+elseif  :   #more than one
+else  :   #
+ 
+_________________________________________________________________________________________________________________________
+
+08/01/2025
+
+JavaScript Operations:
+
+1.Arithmetic Operators:
++,-,*
+Multiplication          - *
+Division                - /  (Q)
+Modulus Operator        - %  (R)
+Exponential(raised to the power  - **
+++ ,
+--
+
+
+example:
+      let a = 5;
+      let b = 2;
+      document.write(a * b, "<br>");       o/p:10
+      document.write(a ** b, "<br>");          25
+      document.write(a / b, "<br>");           2.5
+      document.write(a % b);                   1
+
+2.Assignment Operator:
+
+ var student = "swetha"
++=
+-+
+/+
+%=
+
+3.Logical Operators:
+
+and  =  &&
+T and T  = T
+or   = ||
+T or F  = F
+not    = !
+
+4.Relational(Comparison Operators) values:
+
+<,>,>=,<=,==,===,!=,!===
+
+
+
+5.Conditional Operator;Ternary operator  (?)
+
+First evaluates an expression
+
+
+
+6.windows method
+
+alert()
+prompt()
+confirm()
+
