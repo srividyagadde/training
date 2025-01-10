@@ -467,6 +467,80 @@ Exampple program:
       } else {                                                 cannot teamup
         alert("cannnot teamup");
       }
+_________________________________________________________________________________________________________________________________________________________
+
+10/01/2025
+
+
+Program Solcing eith JavaScript
+
+1.Write a program to check whether the number is divisible by 2 and 3 and both(take prompt).
+
+Program:
+
+      let number = parseInt(prompt("enter the value"));
+      if (number % 2 == 0 && number % 3 == 0) {
+        document.write("number is divible by 2 and 3");              o/p:6
+      } else {                                                           number is divisible by 2 and 3
+        document.write("it is not divisible");
+      }
+      
+
+2.write a program to find the largest number out of three numbers expected from the user.
+
+Program:
+      a = prompt("enetr the first value");  or  ... a = parseInt(prompt("enetr the first value")); 
+      b = prompt("enter the second value");
+      c = prompt("enter the third value");                           o/p:100
+      if (a >= b && a >= c) {                                            500
+        largest = a;                                                     129
+      } else if (b >= a && b >= c) {                                     the greater valie is 500                                
+        largest = b;
+      } else {
+        largest = c;
+      }
+      document.write("the greater value is" + largest);
+
+3.Accept the following from the user and calculate the percentage of classes attended
+  a.Total number of working days
+  b.Total number of days for absent
+After calculating percentage show that, if the percentage is less than 75 then student will not be eligible to write exam
+
+Program:
+
+      a = prompt("Total number of working days");
+      b = prompt("Total number of days absent");
+      c = a - b;                                                  o/p:Total no of working days :100
+      d = (c / a) * 100;                                              Total no of days absent :15
+      if (d > 75) {                                                   eligible to write exam
+        document.write("eligible to write exam");
+      } else {
+        document.write("not eligible");
+      }
+      
+
+4.A company decided to give bonus to employee according to the following criteria:
+
+
+
+switch 
+if
+else
+else if
+ synatx:
+  switch(varaiable/expression){
+case value 1:
+//block of code for case 1
+break;
+case value 2:
+//block of code for case 2
+break;
+case value 2:
+//block of code for case 3
+break;
+default;
+//block of code
+
 
 
 
