@@ -541,6 +541,64 @@ break;
 default;
 //block of code
 
+___________________________________________________________________________________________________________
+
+20/01/2025
+
+LOOPS:
+
+Conditional statements:
+
+--block of code
+1-10 numbers
+Loops:Block of code several times
+1-10
+#10 times
+
+1)for loop :
+2)for in
+3)for of
+4)while
+5)do while
+
+
+1)for loop:
+For(initialisation, condition,update expression{
+--block of code
+}
+
+initialisation place where loop start(init)
+
+1-5
+  #i<5 or i<=5
+  for(let i=1; i<=5;i++){ 
+   console.log(i)
+  }
+  i=1,2,3
+  1<=5 #T 2<=5,3<=5
+  i++=i  #1+1=2 ; 2+1=3
+  Block of code #1;2;3;4;5
+
+example:
+  for(let i=0;i<7;i=i+2){
+   console.log(i+2)
+  }
+ #i=0;2;4;6;8
+ #c=0<7;2<7;4<7;6<7;8<7=F
+ #updation=2+2=4;4+2=6;6+2=8
+ #B=0+2=2;2+2=4;4+2=6;6+2=8
+
+example:
+ #10-15
+ #srividya  #5
+ #squares   -1-10
+ #1 4 9 16 25----100
+ #9th table
+
+ for(i=10;i<=15:i++){
+  console.log(i);
+ }
+ 
 
 
 
