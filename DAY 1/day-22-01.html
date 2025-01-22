@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //continue
+
+      /*for (let i = 1; i <= 8; i = i + 2) {
+        if (i > 5) {
+          continue;
+        }
+        console.log(i);
+      }*/
+
+      /*//innerloop
+      for (let i = 1; i <= 3; i++) {
+        document.write(i, "<br>");
+        //outer loop
+        for (let j = 1; j <= 4; j++) {
+          document.write(j, "");
+        }
+        document.write("<br>");
+      }*/
+
+      /*//right angle triangle
+      function Pattern(rows) {
+        for (let i = 1; i <= rows; i++) {
+          console.log("@".repeat(i).trim());
+        }
+      }
+      Pattern(10);*/
+
+      /*for (let i = 1; i <= 5; i++) {
+        for (let j = 1; j <= i; j++) {
+          document.write("* ");
+        }
+        document.write("<br>");
+      }*/
+
+      //pyramid
+
+      for (let i = 1; i <= 5; i++) {
+        for (let j = 1; j <= 5 - i; j++) {
+          document.write("&nbsp;&nbsp;");
+        }
+        for (let k = 1; k <= 2 * i - 1; k++) {
+          document.write("*");
+        }
+        document.write("<br>");
+      }
+    </script>
+  </body>
+</html>
