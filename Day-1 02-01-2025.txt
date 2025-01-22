@@ -697,6 +697,77 @@ continue;
 }console.log(i)
 }
 
+___________________________________________________________________________________________________________________________________________________
+
+
+22/01/2025 Wednesday
+
+
+
+Nested Loops:
+
+A loop inside the another loop
+The inner loop will execute one time for each iteration of outer loop.
+An inner loop within the repeating block of outer loop
+
+//oterloop
+
+#python,java
+
+example:
+
+ //innerloop
+      for (let i = 1; i <= 3; i++) {
+        document.write(i, "<br>");
+ //outer loop
+        for (let j = 1; j <= 4; j++) {
+          document.write(j, "");
+        }
+        document.write("<br>");
+      }
+
+
+Pyramid example:
+
+           *
+          * *
+         * * *
+        * * * *
+#by using python or java in interviews
+
+
+function Pattern(rows) {
+  for (let i = 1; i <= rows; i++) {
+    console.log('* '.repeat(i).trim());
+  }
+}
+
+// Generate the pattern with 4 rows
+Pattern(4);
+
+right angle pyramid example:
+for (let i = 1; i <= 5; i++) {
+        for (let j = 1; j <= i; j++) {
+          document.write("* ");
+        }
+        document.write("<br>");
+      }
+
+
+pyramid:
+
+for (let i = 1; i <= 5; i++) {
+        for (let j = 1; j <= 5 - i; j++) {
+          document.write("&nbsp;&nbsp;");
+        }
+        for (let k = 1; k <= 2 * i - 1; k++) {
+          document.write("*");
+        }
+        document.write("<br>");
+      }
+
+
+
 
 
 
