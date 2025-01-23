@@ -766,6 +766,120 @@ for (let i = 1; i <= 5; i++) {
         document.write("<br>");
       }
 
+__________________________________________________________________________________________________________________________
+
+23/01/2025   Thursday
+
+Functions:A function is a reusable block of code
+It can be call any where program.
+
+----Reusable code :using an existing code with out writing it ever we need
+
+You can use the same code with different arguments to get the results
+
+
+
+JS:
+
+Key word = function
+()
+Parameters = values(variables) which are declared inside the 
+() 
+which are defining a functions
+Arguments : values which are passed through the parameters
+
+
+#synatax:
+#errors
+#Time-management
+
+eaxmple:
+
+function greet() {
+        console.log("hello sainath");
+      }
+      greet();
+      console.log("hi sainath");
+      greet();
+      console.log("hello kiran");
+      greet();
+
+example:function with parameters
+
+//function with parameters
+
+      function g(name) {
+        console.log("hello" + name);
+      }
+      let name = prompt("Enter your name?");
+      g(name);
+
+#add two numbers
+#two arguments
+
+
+example:
+function add(a,b){
+console.log(a+b)
+}
+add(3,5)
+add(7,3)
+
+function return:
+
+--The return statement can be used to return the value to function call
+
+example:
+
+      function a(aa, bb) {
+        return aa + bb;
+      }
+      let n1 = parseFloat(prompt("enter a number1:"));
+      let n2 = parseFloat(prompt("enter a number2:"));
+      //calling a function
+      let result = a(n1, n2);
+      //display the result
+      console.log("The sum is:" + result);
+
+Anonymous function:
+A function with out name, After we create a function with out name and we assign it to a variable
+
+Example:
+Sum=function(n1,n2){
+let r=n1+n2
+return r
+}
+console.log(sum(8,9))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
