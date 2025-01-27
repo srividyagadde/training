@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /*let mypromise = new Promise((resolve, reject) => {
+        let success = true;
+        if (success) {
+          resolve("Promise is resolved");
+        } else {
+          reject("Promise is rejected");
+        }
+      });
+      mypromise.then((result) => {
+        console.log(result);
+      });
+      mypromise.catch((error) => {
+        console.log(error);
+      });*/
+
+      /*let promise = new Promise((resolve, reject) => {
+          resolve(5);
+      });
+
+      promise
+      .then((result) => {
+          console.log(result);
+          returnresult * 2;
+      })
+          .then(result => {
+              document.write(result);
+              return result + 3;
+          })
+          .then(result => {
+              document.write(result);
+          })
+          .catch(error => {
+              document.write(error);
+          });*/
+
+          let fetchData = new Promise((resolve, reject)=>{
+            let datafetched = true;
+            setTimeout(()=>{
+            if(dataFteched){
+            resolve("data fetched successfull")
+            }else{
+            reject("data fetching failed")
+            },2000);
+            })
+            fetchData
+            .then(result=>{
+            console.log(result)
+            })
+            .catch(error=>{
+            console.log(error)
+            })
+    </script>
+  </body>
+</html>
