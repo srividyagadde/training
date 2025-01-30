@@ -1174,6 +1174,161 @@ console.log(result)
 console.log(error)
 })
 
+_________________________________________________________________________________________________________________________
+
+28/01/2025
+
+DOM(Document object model)
+
+-->It is used in web development used to interact and manipulate(change) the html documents.
+
+when the web page is loaded , the browser creates DOM of the web page.
+when the html file is loaded into the browser,the javascript cannot understand the html document directly.
+
+DOM  : it is basically the representation of the same html document but in a tree like structure composed of objects.
+
+keypoints:
+
+1.Structure :The DOM represents the structure of html document as a tree. Each node in tree represents the elements, an attribute or text.
+2.Manipulation :Using javascript , you can interact with elements (buttons, paragraphs) on the webpage, changing the content ,styles ,can add or remove elements
+3.Event Handling : you can handle the interactions,like click or pressing the button.
+4.W3C world wide web consortium:
+
+Dom:
+
+                               HTML
+                              /    \
+                           Head    Body
+                            /      /   \
+                          Titile  H1   H2
+
+<html>
+<head>
+<title>mallareddy university</title>
+</head>
+<body>
+<h1>i am in hyd</h1>
+</body>
+</html>
+
+Methods of Document Objects:
+
+-->used to interact with and manipulate the content
+Getting Element:
+1.Getting an Element by id:
+2.Getting an Element by class:
+3.Getting an Element by tag:
+4.Getting an Element by query selector:
+
+#id and class;
+#12
+@3
+#g1-4   green
+#g2-4   red
+#g3-4   blue
+
+#when there are same html elements
+#class=group
+#id =a;b;c
+#id =a-single
+
+_______________________________________________________________________________________________________________________
+
+29/01/2025    Wednesday
+
+getElementById():
+return the element having the given id value.
+
+<h1 id="a">i am sai</h1> 
+    <h1 id="b">i am sri</h1>
+    <h1 id="c" >i am shashi</h1>
+
+    <script>
+      let x = document.getElementByClassName("a");
+      console.log(x)
+
+getElementByClassName():
+return all the elements having the same class name
+ 
+
+<h1 id="a" class="a">i am sai</h1>
+    <h1 id="b" class="b">i am sri</h1>
+    <h1 id="c" class="c">i am shashi</h1>
+
+    <h1 class="a">i am srividya</h1>
+    <script>
+      let x = document.getElementByClassName("a");
+      console.log(x);
+
+
+getElementByClassName():
+return an html collection object 
+An html collection is an array like list or html elements.
+The length property provides the size of collection.
+
+
+getElementByTagName():
+
+--This method 
+
+
+<h1 id="a" class="a">i am sai</h1>
+    <h1 id="b" class="b">i am sri</h1>
+    <h1 id="c" class="c">i am shashi</h1>
+
+    <h1 class="a">i am srividya</h1>
+    <script>
+      let x = document.getElementByTagName("h1");
+      console.log(x);
+
+      for (let i = 0; i < x.length; i++) {
+        console.log(x[i]);
+      }
+
+Python ; Java
+1.Conditional
+2.loops
+3.functions
+4.OOPS
+5.Exceptional handling
+6.File handling
+
+
+getting elements by using query selector methods
+
+The document query selector methods select the html elements by tagname , by id , class name.
+
+Queryselctor: Can be used to select HTML element by its tagname , by id , class name ; 
+-->it selects the first element.
+
+Example:
+
+<h1 id="a" class="a">i am sai</h1>
+    <h1 id="b" class="b">i am sri</h1>
+    <h1 id="c" class="c">i am shashi</h1>
+
+    <h1 class="a">i am srividya</h1>
+    <script>
+      let x = document.querySelector("h1");
+      console.log(x);
+Output: <h1 id="aa" class="a">i am sai</hi>
+
+QueryselectorAll:
+-->it selects all the html elements by its class name and class name and tagname
+
+Manipulating Elements:
+<h1>sri</h1>
+To create HTML Elements:
+
+createElement() -create a new element 
+-->method -document .createElement()
+
+textContent():   -property
+
+ 
+
+To create multiple elements:
+
 
 
 
