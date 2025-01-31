@@ -1400,6 +1400,98 @@ To Append a new element():
           console.log(p.innerText);
         </script>
 
+_______________________________________________________________________________________________________________________
+
+31/01/2025     Friday
+
+
+DOM:
+
+1.create a new element(Single,multiple)
+2.append a element inside the parent node
+Add the element at the end
+3.InsertBefore():insert a new node before an existing node or child note of a specific parent
+
+
+
+<div id="a">
+      <h1>ravi</h1>
+      <h1 id="r">ram</h1>
+    </div>
+    <div id="b">
+      <h2>sri</h2>
+      <h2>vidya</h2>
+    </div>
+    <script>
+      let n = document.createElement("h2");
+      n.textContent = "sai";
+
+      let p = document.getElementById("a");
+      let l = document.getElementById("r");
+      p.insertBefore(n, l);
+      console.log(p);
+    </script>
+
+To remove a element:
+let b = document.getElementById("b")
+b.remove()
+
+To remove an child element:
+removeChild():
+
+<div id="a"> 
+    <h1 id="re">ravi</h1>
+    <h1">ram</h1>
+    </div>
+    <div id="b">
+    <h2>sai</h2>
+    <h2>aakash</h2>
+    </div>
+    <script>
+        let n = document.getElementById("a");
+        let l = document.getElementById("re");
+        console.log(l)
+        n.removeChild(l)
+    </script>
+OUTPUT:
+                ram
+                sai
+                Aakash
+
+To replace an element:
+
+<div id="a">  
+        <h1 id="re">ravi</h1>
+        <h1">ram</h1>
+        </div>
+        <div id="b">
+        <h2>sai</h2>
+        <h2>aakash</h2>
+        </div>
+
+    <script>
+        let n=document.createElement('h1')
+        n.innerText="version It"
+
+        let p = document.getElementById("a");          
+      //replace all the children with version It
+
+       p.replaceChildren(n)
+       console.log(p) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
