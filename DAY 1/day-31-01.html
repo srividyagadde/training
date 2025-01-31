@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <div id="a"> 
+
+      <h1>ravi</h1>
+      <h1 id="r">ram</h1>
+
+    </div>
+    <div id="b">
+
+      <h2>sai</h2>
+      <h2>aakash</h2>
+
+    </div>-->
+    <!-- <script> 
+
+      let n = document.createElement("h2");
+      n.textContent = "srividya";
+
+      let p = document.getElementById("a");
+      let l = document.getElementById("r");
+      p.insertBefore(n, l);
+      console.log(p);
+
+    </script>-->
+
+    <!-- <div id="a"> 
+      <h1 id="rr">ravi</h1>
+      <h1 id="r">ram</h1>
+    </div>
+    <div id="b">
+      <h2>sai</h2>
+      <h2>aakash</h2>
+    </div>
+    <script>
+      let n = document.createElement("h2");
+      n.innerText = "srividya"; //innerText or textContent both wew can use
+
+      let p = document.getElementById("a");
+      let l = document.getElementById("r");
+      p.insertBefore(n, l);
+      console.log(p);
+
+      let nn = document.createElement("h2");
+      nn.innerText = "kiran"; //innerText or textContent both wew can use
+
+      let pp = document.getElementById("a");
+      let ll = document.getElementById("rr");
+      pp.insertBefore(nn, ll);
+      console.log(p);
+    </script> -->
+
+
+    <!-- <div id="a">  
+    <h1 id="re">ravi</h1>
+    <h1">ram</h1>
+    </div>
+    <div id="b">
+    <h2>sai</h2>
+    <h2>aakash</h2>
+    </div>
+    <script>
+        let n = document.getElementById("a");
+        let l = document.getElementById("re");
+        console.log(l)
+        n.removeChild(l)
+    </script> -->
+
+    <div id="a">  
+        <h1 id="re">ravi</h1>
+        <h1">ram</h1>
+        </div>
+        <div id="b">
+        <h2>sai</h2>
+        <h2>aakash</h2>
+        </div>
+
+    <script>
+        let n=document.createElement('h1')
+        n.innerText="version It"
+
+        let p = document.getElementById("a");          
+      //replace all the children with version It
+
+       p.replaceChildren(n)
+       console.log(p)
+    //replace ravi with rahul
+    </script>
+  </body>
+</html>
