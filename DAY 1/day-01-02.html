@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //age = prompt("Enter the age");
+      //let citizen = prompt("Enter the citizenship");
+      //let cTest = prompt("Citizenship result");
+
+      //if (age >= 18 && (citizen == "Indian" || cTest == "Passed")) {
+      //  document.write("Can eligible for voting");
+      //} else {
+      //  document.write("Cannot vote");
+      //}
+
+      let customer1 = parseFloat(
+        prompt("Enter the total amount of bill for customer 1")
+      );
+      let customer2 = parseFloat(
+        prompt("Enter the total amount of bill for customer 2")
+      );
+      let customer3 = prompt(
+        "Are you a premium member? (yes/no)"
+      ).toLowerCase();
+
+      if (
+        customer1 > 100 ||
+        (customer2 > 50 && customer2 <= 100) ||
+        customer3 === "yes"
+      ) {
+        document.write("You get a 20% discount");
+      } else {
+        document.write("You get a 10% discount");
+      }
+    </script>
+  </body>
+</html>
